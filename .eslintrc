@@ -1,0 +1,17 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "web3": "writable",
+    "redis": "writable"
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "semi": "error"
+  }
+}

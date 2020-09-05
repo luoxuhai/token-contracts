@@ -1,0 +1,36 @@
+{
+  "name": "token-contracts",
+  "version": "1.0.0",
+  "description": "使用web3js发行代币和调用智能合约 Use web3js to issue tokens and call smart contracts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development npx nodemon",
+    "start": "pm2 start pm2.json --env production",
+    "stop": "pm2 stop eth --watch"
+  },
+  "author": "luoxuhai<2639415619@qq.com> (https://github.com/luoxuhai)",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "ioredis": "^4.17.3",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^5.2.0",
+    "koa-pino-logger": "^3.0.0",
+    "koa-router": "^9.4.0",
+    "solc": "0.7.0",
+    "uuid": "^8.3.0",
+    "web3": "^1.2.11"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.7.0",
+    "nodemon": "^2.0.4",
+    "pino-pretty": "^4.2.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.8.0"
+  }
+}
