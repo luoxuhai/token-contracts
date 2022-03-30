@@ -3,19 +3,19 @@
 ## Quick start
 
 ```bash
-  git clone https://github.com/luoxuhai/token-contracts.git
+git clone https://github.com/luoxuhai/token-contracts.git
 
 ```
 ### Installation
 
 ```bash
-  yarn install
+yarn install
 ```
 
 ### Run
 
 ```bash
-  yarn start
+yarn dev
 ```
 
 ## License
